@@ -10,7 +10,13 @@ The primary extension is an optional CNN feature extractor inserted before the L
 
 Replacing the flatten with a small CNN allows the network to first learn spatially-aware features from the probe grid which captures local flow patterns such as recirculation zones and shear layers, before the LSTM integrates those features over time. A richer, spatially-coherent input representation should lead to faster convergence or a higher peak $\beta$. 
 
-Also note, that I currently do not have access to a supercomputer to run the full testing, so the extension is mostly a hypothesis (a damn good one though!). Also, I encourage to run full training on HPC clusters as compute power is a strong bottleneck for this project. 
+Also note, that I currently do not have access to a supercomputer to run the full testing, so the extension is mostly a hypothesis (a damn good one though!). Also, I encourage to run full training on HPC clusters as compute power is a strong bottleneck for this project. Regardless, the original 9s of uncontrolled flow are shared in this repo, you can see the vortices below at 9 seconds, or open paraview and have a look through the whole flow yourself. 
+
+![Pressure field at t=9s showing vortex shedding](assets/images/Pressure_Profile_9s.png)
+![Velocity field at t=9s](assets/images/Velocity_Profile_9s.png)
+
+
+
 
 ---
 
