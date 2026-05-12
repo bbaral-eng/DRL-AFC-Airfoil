@@ -1,0 +1,20 @@
+name: afc-drl
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - fenics-dolfinx=0.10.0
+  - gmsh
+  - mpi4py
+  - petsc4py
+  - numpy
+  - matplotlib
+  - tqdm
+  - jupyterlab
+  - pip
+  - pip:
+      - gymnasium
+      - stable-baselines3
+      - sb3-contrib
+      - tensorboard
