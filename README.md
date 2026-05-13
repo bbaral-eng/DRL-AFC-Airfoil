@@ -145,6 +145,8 @@ tensorboard --logdir results/tensorboard
 CFD implementation guided by:  
 Dokken, J. S. (2026). *FEniCSx Tutorial — Flow past a cylinder.* https://jsdokken.com/dolfinx-tutorial
 
+Special thanks to Surya Kamalabhavam (skamalab@asu.edu) for contributing deeply to the CFD section of this project. 
+
 ---
 
 ## License
